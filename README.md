@@ -1,2 +1,2 @@
 # CLRS_CODE
-the code for clrs
+This project aimed to accomplish all algorithms of "Introduction to Algorithms" (include exercise and problem) using C++ code.
