@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/Postgraduate/_project/CLRS/my_algorithms/main.cpp
+iostream
+-
+sort_algorithms.h
+H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h
+vector
+-
+
+H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.cpp
+sort_algorithms.h
+H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h
+
+H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h
+vector
+-
+climits
+-
+algorithm
+-
+
