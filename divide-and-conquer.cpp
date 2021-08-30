@@ -111,18 +111,22 @@ vector<int> divide_and_conquer::find_max_subarray_linear_approach(vector<int> A)
 }
 
 vector<vector<int>> divide_and_conquer::square_matrix_multiply(vector<vector<int>> A, vector<vector<int>> B) {
-    vector<vector<int>>C;
-    int n=A.size()-1;
-    for (int i = 0; i < n ; ++i) {
-        vector<int>res;
-        for (int j = 0; j < n ; ++j) {
-            int c=0;
+    if (A.size() != B[0].size())
+        return {};
+    vector<vector<int>> C;
+    int m = A.size();
+    int n=B[0].size();
+    for (int i = 0; i < m; ++i) {
+        vector<int> res;
+        for (int j = 0; j < n; ++j) {
+            int c = 0;
             for (int k = 0; k < n; ++k) {
-                c+=A[i][k]*B[k][j];
+                c += A[i][k] * B[k][j];
             }
             res.push_back(c);
         }
         C.push_back(res);
     }
-    return vector<vector<int>>();
+    return C;
 }
+

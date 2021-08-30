@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-H:/Postgraduate/_project/CLRS/my_algorithms/divide-and-conquer.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.cpp
+divide-and-conquer.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h
+
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h
 vector
 -
 climits
@@ -14,35 +18,35 @@ climits
 algorithm
 -
 
-H:/Postgraduate/_project/CLRS/my_algorithms/main.cpp
+C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp
 iostream
 -
 sort_algorithms.h
-H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h
 divide-and-conquer.h
-H:/Postgraduate/_project/CLRS/my_algorithms/divide-and-conquer.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h
 my_random.h
-H:/Postgraduate/_project/CLRS/my_algorithms/my_random.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h
 my_time_cost.h
-H:/Postgraduate/_project/CLRS/my_algorithms/my_time_cost.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h
 vector
 -
 ctime
 -
 
-H:/Postgraduate/_project/CLRS/my_algorithms/my_random.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h
 random
 -
 vector
 -
 
-H:/Postgraduate/_project/CLRS/my_algorithms/my_time_cost.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h
 ctime
 -
 iostream
 -
 
-H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h
 vector
 -
 climits

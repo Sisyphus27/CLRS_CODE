@@ -1,3 +1,0 @@
-"D:\software\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\my_alogrithms.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\my_alogrithms.dir/objects.a @CMakeFiles\my_alogrithms.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\my_alogrithms.dir/objects.a -Wl,--no-whole-archive -o my_alogrithms.exe -Wl,--out-implib,libmy_alogrithms.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\my_alogrithms.dir\linklibs.rsp

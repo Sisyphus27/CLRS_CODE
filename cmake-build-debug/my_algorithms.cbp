@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug"/>
+				<Option working_dir="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="my_algorithms">
-				<Option output="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/my_algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug"/>
+				<Option output="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/my_algorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_algorithms"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_algorithms"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="my_algorithms/fast">
-				<Option output="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/my_algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug"/>
+				<Option output="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/my_algorithms.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,61 +53,61 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_algorithms/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_algorithms/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug"/>
+				<Option working_dir="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug"/>
+				<Option working_dir="C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/divide-and-conquer.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/divide-and-conquer.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/main.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/my_random.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/my_random.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/my_time_cost.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/my_time_cost.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/sort_algorithms.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="H:/Postgraduate/_project/CLRS/my_algorithms/CMakeLists.txt">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

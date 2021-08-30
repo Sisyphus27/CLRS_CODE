@@ -1,3 +1,3 @@
-H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/CMakeFiles/my_algorithms.dir
-H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir
+C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/rebuild_cache.dir

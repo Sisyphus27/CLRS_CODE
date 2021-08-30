@@ -1,8 +1,8 @@
-# Install script for directory: H:/Postgraduate/_project/CLRS/my_algorithms
+# Install script for directory: C:/Users/zy/Documents/GitHub/CLRS_CODE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/my_alogrithms")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/my_algorithms")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "H:/Postgraduate/_project/CLRS/my_algorithms/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
