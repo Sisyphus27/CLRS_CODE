@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h
+vector
+-
+climits
+-
+algorithm
+-
+
+C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp
+iostream
+-
+sort_algorithms.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h
+divide-and-conquer.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h
+my_random.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h
+my_time_cost.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h
+vector
+-
+
 C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.cpp
 my_random.h
 C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h
@@ -14,5 +36,21 @@ C:/Users/zy/Documents/GitHub/CLRS_CODE/my_random.h
 random
 -
 vector
+-
+cstdlib
+-
+
+C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h
+ctime
+-
+iostream
+-
+
+C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h
+vector
+-
+climits
+-
+algorithm
 -
 
