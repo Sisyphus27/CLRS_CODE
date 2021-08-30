@@ -17,6 +17,7 @@ vector<int> generate_random::int_random(int min,int max,int num) {
 
 vector<vector<int>> generate_random::int_matrix_random(int min, int max,int m,int n) {
     //crate two matrix using one class cause two same matrix(parameter don't change)
+    //fixed, but the first matrix will remain same when run many times
     vector<vector<int>>C;
     random_device rd;
     static std::mt19937 eng(rd());
