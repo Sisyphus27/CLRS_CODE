@@ -9,10 +9,10 @@ using namespace std;
 
 int main() {
     //random array
-    class generate_random r;
-    vector<int>t=r.int_random(-1000,1000,92000);
-    vector<vector<int>>A=r.int_matrix_random(-100,100,2,3);
-    vector<vector<int>>B=r.int_matrix_random(-100,100,3,2);
+    class generate_random r1,r2;
+    vector<int>t=r1.int_random(-1000,1000,92000);
+    vector<vector<int>>A=r1.int_matrix_random(-100,100,3,3);
+    vector<vector<int>>B=r2.int_matrix_random(-100,100,3,3);
     //time variable_1
     my_time time_1;
     divide_and_conquer s;

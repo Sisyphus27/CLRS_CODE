@@ -6,8 +6,8 @@
 
 vector<int> generate_random::int_random(int min,int max,int num) {
     random_device rd;
-    std::mt19937 eng(rd());
-    std::uniform_int_distribution<int> dis(min,max);
+    static std::mt19937 eng(rd());
+    static std::uniform_int_distribution<int> dis(min,max);
     vector<int> t;
     for (int i = 0; i < num; ++i) {
         t.push_back(dis(eng));
@@ -19,8 +19,8 @@ vector<vector<int>> generate_random::int_matrix_random(int min, int max,int m,in
     //crate two matrix using one class cause two same matrix(parameter don't change)
     vector<vector<int>>C;
     random_device rd;
-    std::mt19937 eng(rd());
-    std::uniform_int_distribution<int> dis(min,max);
+    static std::mt19937 eng(rd());
+    static std::uniform_int_distribution<int> dis(min,max);
     for (int i = 0; i < m; ++i) {
         vector<int>t;
         for (int j = 0; j < n; ++j) {
