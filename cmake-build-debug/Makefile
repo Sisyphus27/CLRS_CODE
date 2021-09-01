@@ -141,6 +141,60 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/build
 .PHONY : my_algorithms/fast
 
+02_Getting_Started/sort_algorithms.obj: 02_Getting_Started/sort_algorithms.cpp.obj
+
+.PHONY : 02_Getting_Started/sort_algorithms.obj
+
+# target to build an object file
+02_Getting_Started/sort_algorithms.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj
+.PHONY : 02_Getting_Started/sort_algorithms.cpp.obj
+
+02_Getting_Started/sort_algorithms.i: 02_Getting_Started/sort_algorithms.cpp.i
+
+.PHONY : 02_Getting_Started/sort_algorithms.i
+
+# target to preprocess a source file
+02_Getting_Started/sort_algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.i
+.PHONY : 02_Getting_Started/sort_algorithms.cpp.i
+
+02_Getting_Started/sort_algorithms.s: 02_Getting_Started/sort_algorithms.cpp.s
+
+.PHONY : 02_Getting_Started/sort_algorithms.s
+
+# target to generate assembly for a file
+02_Getting_Started/sort_algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.s
+.PHONY : 02_Getting_Started/sort_algorithms.cpp.s
+
+04_Divide_and_Conquer/divide-and-conquer.obj: 04_Divide_and_Conquer/divide-and-conquer.cpp.obj
+
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.obj
+
+# target to build an object file
+04_Divide_and_Conquer/divide-and-conquer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.cpp.obj
+
+04_Divide_and_Conquer/divide-and-conquer.i: 04_Divide_and_Conquer/divide-and-conquer.cpp.i
+
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.i
+
+# target to preprocess a source file
+04_Divide_and_Conquer/divide-and-conquer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.i
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.cpp.i
+
+04_Divide_and_Conquer/divide-and-conquer.s: 04_Divide_and_Conquer/divide-and-conquer.cpp.s
+
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.s
+
+# target to generate assembly for a file
+04_Divide_and_Conquer/divide-and-conquer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.s
+.PHONY : 04_Divide_and_Conquer/divide-and-conquer.cpp.s
+
 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj: 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
 
 .PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
@@ -167,33 +221,6 @@ my_algorithms/fast:
 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
 .PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
-
-divide-and-conquer.obj: divide-and-conquer.cpp.obj
-
-.PHONY : divide-and-conquer.obj
-
-# target to build an object file
-divide-and-conquer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/divide-and-conquer.cpp.obj
-.PHONY : divide-and-conquer.cpp.obj
-
-divide-and-conquer.i: divide-and-conquer.cpp.i
-
-.PHONY : divide-and-conquer.i
-
-# target to preprocess a source file
-divide-and-conquer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/divide-and-conquer.cpp.i
-.PHONY : divide-and-conquer.cpp.i
-
-divide-and-conquer.s: divide-and-conquer.cpp.s
-
-.PHONY : divide-and-conquer.s
-
-# target to generate assembly for a file
-divide-and-conquer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/divide-and-conquer.cpp.s
-.PHONY : divide-and-conquer.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -222,33 +249,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-my_time_cost.obj: my_time_cost.cpp.obj
-
-.PHONY : my_time_cost.obj
-
-# target to build an object file
-my_time_cost.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_time_cost.cpp.obj
-.PHONY : my_time_cost.cpp.obj
-
-my_time_cost.i: my_time_cost.cpp.i
-
-.PHONY : my_time_cost.i
-
-# target to preprocess a source file
-my_time_cost.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_time_cost.cpp.i
-.PHONY : my_time_cost.cpp.i
-
-my_time_cost.s: my_time_cost.cpp.s
-
-.PHONY : my_time_cost.s
-
-# target to generate assembly for a file
-my_time_cost.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_time_cost.cpp.s
-.PHONY : my_time_cost.cpp.s
-
 random_algorithm/my_random.obj: random_algorithm/my_random.cpp.obj
 
 .PHONY : random_algorithm/my_random.obj
@@ -276,32 +276,32 @@ random_algorithm/my_random.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.s
 .PHONY : random_algorithm/my_random.cpp.s
 
-sort_algorithms.obj: sort_algorithms.cpp.obj
+time_cost_calculate/time_cost_calculate.obj: time_cost_calculate/time_cost_calculate.cpp.obj
 
-.PHONY : sort_algorithms.obj
+.PHONY : time_cost_calculate/time_cost_calculate.obj
 
 # target to build an object file
-sort_algorithms.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/sort_algorithms.cpp.obj
-.PHONY : sort_algorithms.cpp.obj
+time_cost_calculate/time_cost_calculate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj
+.PHONY : time_cost_calculate/time_cost_calculate.cpp.obj
 
-sort_algorithms.i: sort_algorithms.cpp.i
+time_cost_calculate/time_cost_calculate.i: time_cost_calculate/time_cost_calculate.cpp.i
 
-.PHONY : sort_algorithms.i
+.PHONY : time_cost_calculate/time_cost_calculate.i
 
 # target to preprocess a source file
-sort_algorithms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/sort_algorithms.cpp.i
-.PHONY : sort_algorithms.cpp.i
+time_cost_calculate/time_cost_calculate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.i
+.PHONY : time_cost_calculate/time_cost_calculate.cpp.i
 
-sort_algorithms.s: sort_algorithms.cpp.s
+time_cost_calculate/time_cost_calculate.s: time_cost_calculate/time_cost_calculate.cpp.s
 
-.PHONY : sort_algorithms.s
+.PHONY : time_cost_calculate/time_cost_calculate.s
 
 # target to generate assembly for a file
-sort_algorithms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/sort_algorithms.cpp.s
-.PHONY : sort_algorithms.cpp.s
+time_cost_calculate/time_cost_calculate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.s
+.PHONY : time_cost_calculate/time_cost_calculate.cpp.s
 
 # Help Target
 help:
@@ -312,24 +312,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_algorithms
+	@echo ... 02_Getting_Started/sort_algorithms.obj
+	@echo ... 02_Getting_Started/sort_algorithms.i
+	@echo ... 02_Getting_Started/sort_algorithms.s
+	@echo ... 04_Divide_and_Conquer/divide-and-conquer.obj
+	@echo ... 04_Divide_and_Conquer/divide-and-conquer.i
+	@echo ... 04_Divide_and_Conquer/divide-and-conquer.s
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
-	@echo ... divide-and-conquer.obj
-	@echo ... divide-and-conquer.i
-	@echo ... divide-and-conquer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... my_time_cost.obj
-	@echo ... my_time_cost.i
-	@echo ... my_time_cost.s
 	@echo ... random_algorithm/my_random.obj
 	@echo ... random_algorithm/my_random.i
 	@echo ... random_algorithm/my_random.s
-	@echo ... sort_algorithms.obj
-	@echo ... sort_algorithms.i
-	@echo ... sort_algorithms.s
+	@echo ... time_cost_calculate/time_cost_calculate.obj
+	@echo ... time_cost_calculate/time_cost_calculate.i
+	@echo ... time_cost_calculate/time_cost_calculate.s
 .PHONY : help
 
 

@@ -1,8 +1,8 @@
 #include <iostream>
-#include "sort_algorithms.h"
-#include "divide-and-conquer.h"
+#include "02_Getting_Started/sort_algorithms.h"
+#include "04_Divide_and_Conquer/divide-and-conquer.h"
 #include "random_algorithm/my_random.h"
-#include "my_time_cost.h"
+#include "time_cost_calculate/time_cost_calculate.h"
 #include <vector>
 
 using namespace std;

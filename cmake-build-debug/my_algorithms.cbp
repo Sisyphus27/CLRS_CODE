@@ -80,25 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.h">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/04_Divide_and_Conquer/divide-and-conquer.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/04_Divide_and_Conquer/divide-and-conquer.h">
+			<Option target="my_algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.cpp">
-			<Option target="my_algorithms"/>
-		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.h">
-			<Option target="my_algorithms"/>
-		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp">
-			<Option target="my_algorithms"/>
-		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.cpp">
-			<Option target="my_algorithms"/>
-		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.h">
 			<Option target="my_algorithms"/>
 		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.cpp">
@@ -107,10 +107,10 @@
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.h">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/time_cost_calculate/time_cost_calculate.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/time_cost_calculate/time_cost_calculate.h">
 			<Option target="my_algorithms"/>
 		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/CMakeLists.txt">

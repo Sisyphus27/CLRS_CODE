@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj"
+  "C:/Users/zy/Documents/GitHub/CLRS_CODE/04_Divide_and_Conquer/divide-and-conquer.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj"
-  "C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/divide-and-conquer.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/main.cpp.obj"
-  "C:/Users/zy/Documents/GitHub/CLRS_CODE/my_time_cost.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/my_time_cost.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj"
-  "C:/Users/zy/Documents/GitHub/CLRS_CODE/sort_algorithms.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/sort_algorithms.cpp.obj"
+  "C:/Users/zy/Documents/GitHub/CLRS_CODE/time_cost_calculate/time_cost_calculate.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
