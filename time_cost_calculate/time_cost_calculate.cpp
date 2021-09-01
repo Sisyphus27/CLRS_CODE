@@ -4,7 +4,7 @@
 
 #include "time_cost_calculate.h"
 
-void my_time::get_time_cost() {
+void _time_cost::get_time_cost() {
     cout<<endl;
     end=clock();
     ret=double (end-begin)/CLOCKS_PER_SEC;

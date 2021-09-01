@@ -7,7 +7,7 @@
 #include <ctime>
 #include <iostream>
 using namespace std;
-class my_time{
+class _time_cost{
 private:
     time_t begin=clock();
     time_t end;
