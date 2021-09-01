@@ -8,6 +8,7 @@
 #include <iostream>
 using namespace std;
 class _time_cost{
+    //Start counting when class are created.
 private:
     time_t begin=clock();
     time_t end;
