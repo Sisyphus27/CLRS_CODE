@@ -6,7 +6,6 @@
 #define MY_ALGORITHMS_MY_RANDOM_H
 #include <random>
 #include <vector>
-
 using namespace std;
 
 class generate_random{

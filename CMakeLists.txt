@@ -13,5 +13,5 @@ add_executable(my_algorithms
         04_Divide_and_Conquer/divide-and-conquer.cpp 04_Divide_and_Conquer/divide-and-conquer.h
         random_algorithm/my_random.cpp random_algorithm/my_random.h
         time_cost_calculate/time_cost_calculate.cpp time_cost_calculate/time_cost_calculate.h
-        "05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp" "05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.h"
+        05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h
         )

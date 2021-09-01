@@ -141,17 +141,17 @@ CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.s: cmak
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zy\Documents\GitHub\CLRS_CODE\time_cost_calculate\time_cost_calculate.cpp -o CMakeFiles\my_algorithms.dir\time_cost_calculate\time_cost_calculate.cpp.s
 
 CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj: CMakeFiles/my_algorithms.dir/flags.make
-CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj: ../05_Probabilistic\ Analysis\ and\ Randomized\ Algorithms/hiring_problem.cpp
+CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj: ../05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zy\Documents\GitHub\CLRS_CODE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.obj -c "C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic Analysis and Randomized Algorithms\hiring_problem.cpp"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.obj -c C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp
 
 CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic Analysis and Randomized Algorithms\hiring_problem.cpp" > CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp > CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.i
 
 CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic Analysis and Randomized Algorithms\hiring_problem.cpp" -o CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zy\Documents\GitHub\CLRS_CODE\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp -o CMakeFiles\my_algorithms.dir\05_Probabilistic_Analysis_and_Randomized_Algorithms\hiring_problem.cpp.s
 
 # Object files for target my_algorithms
 my_algorithms_OBJECTS = \
