@@ -141,32 +141,32 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/build
 .PHONY : my_algorithms/fast
 
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj: 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
 
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
 
 # target to build an object file
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
 
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i: 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
 
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
 
 # target to preprocess a source file
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
 
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s: 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
 
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
 
 # target to generate assembly for a file
-Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
-.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+.PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
 
 divide-and-conquer.obj: divide-and-conquer.cpp.obj
 
@@ -222,33 +222,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-my_random.obj: my_random.cpp.obj
-
-.PHONY : my_random.obj
-
-# target to build an object file
-my_random.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_random.cpp.obj
-.PHONY : my_random.cpp.obj
-
-my_random.i: my_random.cpp.i
-
-.PHONY : my_random.i
-
-# target to preprocess a source file
-my_random.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_random.cpp.i
-.PHONY : my_random.cpp.i
-
-my_random.s: my_random.cpp.s
-
-.PHONY : my_random.s
-
-# target to generate assembly for a file
-my_random.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_random.cpp.s
-.PHONY : my_random.cpp.s
-
 my_time_cost.obj: my_time_cost.cpp.obj
 
 .PHONY : my_time_cost.obj
@@ -275,6 +248,33 @@ my_time_cost.s: my_time_cost.cpp.s
 my_time_cost.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/my_time_cost.cpp.s
 .PHONY : my_time_cost.cpp.s
+
+random_algorithm/my_random.obj: random_algorithm/my_random.cpp.obj
+
+.PHONY : random_algorithm/my_random.obj
+
+# target to build an object file
+random_algorithm/my_random.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj
+.PHONY : random_algorithm/my_random.cpp.obj
+
+random_algorithm/my_random.i: random_algorithm/my_random.cpp.i
+
+.PHONY : random_algorithm/my_random.i
+
+# target to preprocess a source file
+random_algorithm/my_random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.i
+.PHONY : random_algorithm/my_random.cpp.i
+
+random_algorithm/my_random.s: random_algorithm/my_random.cpp.s
+
+.PHONY : random_algorithm/my_random.s
+
+# target to generate assembly for a file
+random_algorithm/my_random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.s
+.PHONY : random_algorithm/my_random.cpp.s
 
 sort_algorithms.obj: sort_algorithms.cpp.obj
 
@@ -312,21 +312,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_algorithms
-	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
-	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
-	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
+	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
+	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
+	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
 	@echo ... divide-and-conquer.obj
 	@echo ... divide-and-conquer.i
 	@echo ... divide-and-conquer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... my_random.obj
-	@echo ... my_random.i
-	@echo ... my_random.s
 	@echo ... my_time_cost.obj
 	@echo ... my_time_cost.i
 	@echo ... my_time_cost.s
+	@echo ... random_algorithm/my_random.obj
+	@echo ... random_algorithm/my_random.i
+	@echo ... random_algorithm/my_random.s
 	@echo ... sort_algorithms.obj
 	@echo ... sort_algorithms.i
 	@echo ... sort_algorithms.s

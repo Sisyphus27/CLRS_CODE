@@ -11,7 +11,7 @@ add_executable(my_algorithms
         main.cpp
         sort_algorithms.cpp sort_algorithms.h
         divide-and-conquer.cpp divide-and-conquer.h
-        my_random.cpp my_random.h
+        random_algorithm/my_random.cpp random_algorithm/my_random.h
         my_time_cost.cpp my_time_cost.h
-        "Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp" "Probabilistic Analysis and Randomized Algorithms/hiring_problem.h"
+        "05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp" "05_Probabilistic Analysis and Randomized Algorithms/hiring_problem.h"
         )

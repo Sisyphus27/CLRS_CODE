@@ -1,7 +1,7 @@
 #include <iostream>
 #include "sort_algorithms.h"
 #include "divide-and-conquer.h"
-#include "my_random.h"
+#include "random_algorithm/my_random.h"
 #include "my_time_cost.h"
 #include <vector>
 
