@@ -141,6 +141,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/build
 .PHONY : my_algorithms/fast
 
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
+
+# target to build an object file
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj
+
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
+
+# target to preprocess a source file
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.i
+
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s: Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
+
+# target to generate assembly for a file
+Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+.PHONY : Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
+
 divide-and-conquer.obj: divide-and-conquer.cpp.obj
 
 .PHONY : divide-and-conquer.obj
@@ -285,6 +312,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_algorithms
+	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
+	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
+	@echo ... Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
 	@echo ... divide-and-conquer.obj
 	@echo ... divide-and-conquer.i
 	@echo ... divide-and-conquer.s

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/Probabilistic Analysis and Randomized Algorithms/hiring_problem.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/Probabilistic Analysis and Randomized Algorithms/hiring_problem.h">
+			<Option target="my_algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/divide-and-conquer.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>

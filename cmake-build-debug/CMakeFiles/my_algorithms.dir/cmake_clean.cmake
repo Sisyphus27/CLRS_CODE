@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_algorithms.dir/Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj"
   "CMakeFiles/my_algorithms.dir/divide-and-conquer.cpp.obj"
   "CMakeFiles/my_algorithms.dir/main.cpp.obj"
   "CMakeFiles/my_algorithms.dir/my_random.cpp.obj"
