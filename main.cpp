@@ -10,22 +10,16 @@ using namespace std;
 
 int main() {
 
-    int tt= _random(1,4);
     //random array
-    class generate_random r1,r2;
-    vector<int>t=r1.int_random(-1000,1000,92000);
-    vector<vector<int>>A=r1.int_matrix_random(-100,100,3,3);
-    vector<vector<int>>B=r2.int_matrix_random(-100,100,3,3);
+    class generate_random r1, r2;
+    vector<int> t = r1.int_random(-1000, 1000, 92000);
     //time variable_1
     my_time time_1;
-    divide_and_conquer s;
-    vector<vector<int>>C=s.square_matrix_multiply(A,B);
-    for(auto item:C){
-        for(auto i:item)
-            cout<<i<<" ";
-        cout<<endl;
-    }
-
+    map<int, int> ret = hire_assistant(t);
     time_1.get_time_cost();
+
+    for (auto item:ret) {
+        cout << item.first << " " << item.second << endl;
+    }
     return 0;
 }
