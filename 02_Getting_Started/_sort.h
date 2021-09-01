@@ -2,8 +2,8 @@
 // Created by zy on 2021/8/17.
 //
 
-#ifndef MY_ALGORITHMS_SORT_ALGORITHMS_H
-#define MY_ALGORITHMS_SORT_ALGORITHMS_H
+#ifndef MY_ALGORITHMS__SORT_H
+#define MY_ALGORITHMS__SORT_H
 
 #include <vector>
 #include <climits>

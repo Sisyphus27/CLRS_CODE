@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj"
+  "CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj"
   "CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj"
   "CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.obj"

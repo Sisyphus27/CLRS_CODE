@@ -88,18 +88,18 @@ CMakeFiles/my_algorithms.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_algorithms.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zy\Documents\GitHub\CLRS_CODE\main.cpp -o CMakeFiles\my_algorithms.dir\main.cpp.s
 
-CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj: CMakeFiles/my_algorithms.dir/flags.make
-CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj: ../02_Getting_Started/sort_algorithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zy\Documents\GitHub\CLRS_CODE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_algorithms.dir\02_Getting_Started\sort_algorithms.cpp.obj -c C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\sort_algorithms.cpp
+CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj: CMakeFiles/my_algorithms.dir/flags.make
+CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj: ../02_Getting_Started/_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zy\Documents\GitHub\CLRS_CODE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_algorithms.dir\02_Getting_Started\_sort.cpp.obj -c C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\_sort.cpp
 
-CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\sort_algorithms.cpp > CMakeFiles\my_algorithms.dir\02_Getting_Started\sort_algorithms.cpp.i
+CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\_sort.cpp > CMakeFiles\my_algorithms.dir\02_Getting_Started\_sort.cpp.i
 
-CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\sort_algorithms.cpp -o CMakeFiles\my_algorithms.dir\02_Getting_Started\sort_algorithms.cpp.s
+CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zy\Documents\GitHub\CLRS_CODE\02_Getting_Started\_sort.cpp -o CMakeFiles\my_algorithms.dir\02_Getting_Started\_sort.cpp.s
 
 CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj: CMakeFiles/my_algorithms.dir/flags.make
 CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj: ../04_Divide_and_Conquer/divide-and-conquer.cpp
@@ -169,7 +169,7 @@ CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.s: cmake_force
 # Object files for target my_algorithms
 my_algorithms_OBJECTS = \
 "CMakeFiles/my_algorithms.dir/main.cpp.obj" \
-"CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj" \
+"CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj" \
 "CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj" \
 "CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj" \
 "CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj" \
@@ -180,7 +180,7 @@ my_algorithms_OBJECTS = \
 my_algorithms_EXTERNAL_OBJECTS =
 
 my_algorithms.exe: CMakeFiles/my_algorithms.dir/main.cpp.obj
-my_algorithms.exe: CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj
+my_algorithms.exe: CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj
 my_algorithms.exe: CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj
 my_algorithms.exe: CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj
 my_algorithms.exe: CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj

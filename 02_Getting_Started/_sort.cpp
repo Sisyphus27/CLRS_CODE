@@ -2,7 +2,7 @@
 // Created by zy on 2021/8/17.
 //
 
-#include "sort_algorithms.h"
+#include "_sort.h"
 
 vector<int> my_sort::insertion(vector<int> &input) {
     int i, key;

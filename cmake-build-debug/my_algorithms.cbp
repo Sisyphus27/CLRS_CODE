@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.cpp">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/_sort.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
-		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.h">
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/_sort.h">
 			<Option target="my_algorithms"/>
 		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/04_Divide_and_Conquer/divide-and-conquer.cpp">

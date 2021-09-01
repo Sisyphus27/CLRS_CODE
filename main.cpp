@@ -1,5 +1,5 @@
 #include <iostream>
-#include "02_Getting_Started/sort_algorithms.h"
+#include "02_Getting_Started/_sort.h"
 #include "04_Divide_and_Conquer/divide-and-conquer.h"
 #include "05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h"
 #include "random_algorithm/my_random.h"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/sort_algorithms.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj"
+  "C:/Users/zy/Documents/GitHub/CLRS_CODE/02_Getting_Started/_sort.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/04_Divide_and_Conquer/divide-and-conquer.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/04_Divide_and_Conquer/divide-and-conquer.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.obj"

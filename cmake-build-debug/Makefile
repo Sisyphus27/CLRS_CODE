@@ -141,32 +141,32 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/build
 .PHONY : my_algorithms/fast
 
-02_Getting_Started/sort_algorithms.obj: 02_Getting_Started/sort_algorithms.cpp.obj
+02_Getting_Started/_sort.obj: 02_Getting_Started/_sort.cpp.obj
 
-.PHONY : 02_Getting_Started/sort_algorithms.obj
+.PHONY : 02_Getting_Started/_sort.obj
 
 # target to build an object file
-02_Getting_Started/sort_algorithms.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.obj
-.PHONY : 02_Getting_Started/sort_algorithms.cpp.obj
+02_Getting_Started/_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.obj
+.PHONY : 02_Getting_Started/_sort.cpp.obj
 
-02_Getting_Started/sort_algorithms.i: 02_Getting_Started/sort_algorithms.cpp.i
+02_Getting_Started/_sort.i: 02_Getting_Started/_sort.cpp.i
 
-.PHONY : 02_Getting_Started/sort_algorithms.i
+.PHONY : 02_Getting_Started/_sort.i
 
 # target to preprocess a source file
-02_Getting_Started/sort_algorithms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.i
-.PHONY : 02_Getting_Started/sort_algorithms.cpp.i
+02_Getting_Started/_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.i
+.PHONY : 02_Getting_Started/_sort.cpp.i
 
-02_Getting_Started/sort_algorithms.s: 02_Getting_Started/sort_algorithms.cpp.s
+02_Getting_Started/_sort.s: 02_Getting_Started/_sort.cpp.s
 
-.PHONY : 02_Getting_Started/sort_algorithms.s
+.PHONY : 02_Getting_Started/_sort.s
 
 # target to generate assembly for a file
-02_Getting_Started/sort_algorithms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/sort_algorithms.cpp.s
-.PHONY : 02_Getting_Started/sort_algorithms.cpp.s
+02_Getting_Started/_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/02_Getting_Started/_sort.cpp.s
+.PHONY : 02_Getting_Started/_sort.cpp.s
 
 04_Divide_and_Conquer/divide-and-conquer.obj: 04_Divide_and_Conquer/divide-and-conquer.cpp.obj
 
@@ -339,9 +339,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... my_algorithms
-	@echo ... 02_Getting_Started/sort_algorithms.obj
-	@echo ... 02_Getting_Started/sort_algorithms.i
-	@echo ... 02_Getting_Started/sort_algorithms.s
+	@echo ... 02_Getting_Started/_sort.obj
+	@echo ... 02_Getting_Started/_sort.i
+	@echo ... 02_Getting_Started/_sort.s
 	@echo ... 04_Divide_and_Conquer/divide-and-conquer.obj
 	@echo ... 04_Divide_and_Conquer/divide-and-conquer.i
 	@echo ... 04_Divide_and_Conquer/divide-and-conquer.s
