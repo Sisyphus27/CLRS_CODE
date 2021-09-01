@@ -222,6 +222,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
 .PHONY : 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp.s
 
+06_Heapsort/_heaps.obj: 06_Heapsort/_heaps.cpp.obj
+
+.PHONY : 06_Heapsort/_heaps.obj
+
+# target to build an object file
+06_Heapsort/_heaps.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.obj
+.PHONY : 06_Heapsort/_heaps.cpp.obj
+
+06_Heapsort/_heaps.i: 06_Heapsort/_heaps.cpp.i
+
+.PHONY : 06_Heapsort/_heaps.i
+
+# target to preprocess a source file
+06_Heapsort/_heaps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.i
+.PHONY : 06_Heapsort/_heaps.cpp.i
+
+06_Heapsort/_heaps.s: 06_Heapsort/_heaps.cpp.s
+
+.PHONY : 06_Heapsort/_heaps.s
+
+# target to generate assembly for a file
+06_Heapsort/_heaps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.s
+.PHONY : 06_Heapsort/_heaps.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -321,6 +348,9 @@ help:
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.obj
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.i
 	@echo ... 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.s
+	@echo ... 06_Heapsort/_heaps.obj
+	@echo ... 06_Heapsort/_heaps.i
+	@echo ... 06_Heapsort/_heaps.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

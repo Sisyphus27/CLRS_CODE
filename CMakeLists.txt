@@ -14,4 +14,4 @@ add_executable(my_algorithms
         random_algorithm/my_random.cpp random_algorithm/my_random.h
         time_cost_calculate/time_cost_calculate.cpp time_cost_calculate/time_cost_calculate.h
         05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.cpp 05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h
-        )
+        06_Heapsort/_heaps.cpp 06_Heapsort/_heaps.h)

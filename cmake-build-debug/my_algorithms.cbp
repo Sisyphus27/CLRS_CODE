@@ -98,6 +98,12 @@
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h">
 			<Option target="my_algorithms"/>
 		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.h">
+			<Option target="my_algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
