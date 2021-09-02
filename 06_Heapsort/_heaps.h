@@ -21,6 +21,7 @@ public:
     int _length();//return the heap's length.
 
     void _print_heap();//print elements of heap.
+private:
 
     static int _parent_index(int i);//return the index of node i's parent.
 
