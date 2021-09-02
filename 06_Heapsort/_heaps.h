@@ -22,12 +22,16 @@ public:
 
     void _print_heap();//print elements of heap.
 
+    void _max_heapify(int i);//maintaining max-heap property- p154
+
 private:
     static int _parent_index(int i);//return the index of node i's parent.
 
     int _left_index(int i);//return the index of node i's left child.
 
     int _right_index(int i);//return the index of node i's right child.
+
+    void swap(int i,int j);//swap two elements in heap.
 };
 
 #endif //MY_ALGORITHMS__HEAPS_H

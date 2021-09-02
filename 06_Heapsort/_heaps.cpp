@@ -8,7 +8,7 @@
 
 
 void _heap::_initialized(vector<int> A) {
-    heap = std::move(A);//what is this function do?
+    this->heap = A;
 }
 
 int _heap::_length() {
@@ -26,21 +26,39 @@ void _heap::_print_heap() {
 }
 
 int _heap::_parent_index(int i) {
-    if (i == 1)return 1;
-    return floor(i / 2);
+    return floor((i - 1) / 2);
 }
 
 int _heap::_left_index(int i) {
-    i << 1;
-    if (i > _length())
-        return -1;
+    i = (i << 1) + 1;
     return i;
 }
 
 int _heap::_right_index(int i) {
-    i = (i << 1) + 1;
-    if (i > _length())
-        return -1;
+    i = (i << 1) + 2;
     return i;
+}
+
+void _heap::_max_heapify(int i) {
+    int largest;
+    int l = _left_index(i);
+    int r = _right_index(i);
+    int n = this->_length();
+    if ((l <= n) && (heap[l] > heap[i]))
+        largest = l;
+    else
+        largest = i;
+    if ((r <= n) && (heap[r] > heap[largest]))
+        largest = r;
+    if (largest != i) {
+        swap(i, largest);
+        _max_heapify(largest);
+    }
+}
+
+void _heap::swap(int i, int j) {
+    int t = this->heap[i];
+    this->heap[i] = this->heap[j];
+    this->heap[j] = t;
 }
 
