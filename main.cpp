@@ -21,7 +21,7 @@ int main() {
     h1._print_heap();
     //time variable_1
     _time_cost time_1;
-    h1._max_heapify(1);
+    h1._max_heapify_nonrecursive(1);
 
     time_1.get_time_cost();
 

@@ -64,3 +64,39 @@ void _heap::swap(int i, int j) {
     this->heap[j] = t;
 }
 
+void _heap::_min_heapify(int i) {
+    int lowest;
+    int l = _left_index(i);
+    int r = _right_index(i);
+    int n = this->_length();
+    if ((l <= n) && (heap[l] > heap[i]))
+        lowest = l;
+    else
+        lowest = i;
+    if ((r <= n) && (heap[r] > heap[lowest]))
+        lowest = r;
+    if (lowest != i) {
+        swap(i, lowest);
+        _min_heapify(lowest);
+    }
+}
+
+void _heap::_max_heapify_nonrecursive(int i) {
+    int l, r, largest;
+    int n = this->_length();
+    while (true) {
+        l = _left_index(i);
+        r = _right_index(i);
+        if (heap[l] > heap[i])
+            largest = l;
+        else
+            largest = i;
+        if(heap[r]>heap[largest])
+            largest=r;
+        if(largest==i)
+            return;
+        swap(i,largest);
+        i=largest;
+    }
+}
+

@@ -24,6 +24,10 @@ public:
 
     void _max_heapify(int i);//maintaining max-heap property- p154
 
+    void _min_heapify(int i);//maintaining min-heap property-never used-6.2-2
+
+    void _max_heapify_nonrecursive(int i);//6.2-5 //nonrecursive-version
+
 private:
     static int _parent_index(int i);//return the index of node i's parent.
 
