@@ -25,6 +25,7 @@ void _heap::_print_heap() {
     cout << endl;
 }
 
+//different point from the book is that the heap of book's description is start by 1.
 int _heap::_parent_index(int i) {
     return floor((i - 1) / 2);
 }
@@ -38,6 +39,7 @@ int _heap::_right_index(int i) {
     i = (i << 1) + 2;
     return i;
 }
+//
 
 void _heap::_max_heapify(int i) {
     int largest;
