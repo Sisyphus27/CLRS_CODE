@@ -4,7 +4,6 @@
 
 #include "_heaps.h"
 
-#include <utility>
 
 
 void _heap::_initialized(vector<int> A) {

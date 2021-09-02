@@ -37,7 +37,7 @@ private:
 
     void _min_heapify(int i);//maintaining min-heap property-never used-6.2-2
 
-    void _max_heapify_nonrecursive(int i);//non-recursive-version-6.2-5-
+    void _max_heapify_nonrecursive(int i);//non-recursive-version-6.2-5
 };
 
 #endif //MY_ALGORITHMS__HEAPS_H
