@@ -11,7 +11,7 @@
 
 using namespace std;
 
-class _heap {
+class _heap {//max-heap
 private:
     vector<int> heap;
 
