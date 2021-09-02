@@ -91,12 +91,18 @@ void _heap::_max_heapify_nonrecursive(int i) {
             largest = l;
         else
             largest = i;
-        if(heap[r]>heap[largest])
-            largest=r;
-        if(largest==i)
+        if (heap[r] > heap[largest])
+            largest = r;
+        if (largest == i)
             return;
-        swap(i,largest);
-        i=largest;
+        swap(i, largest);
+        i = largest;
     }
+}
+
+void _heap::_build_max_heap() {
+    int n = this->_length();
+    for (int i = floor(n / 2) - 1; i >= 0; --i)//notice the index is not start from 1.
+        _max_heapify(i);
 }
 

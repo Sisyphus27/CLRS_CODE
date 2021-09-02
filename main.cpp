@@ -14,14 +14,14 @@ int main() {
     //random array
     class generate_random r1, r2;
     vector<int> t = r1.int_random(-27, 27, 10);
-    vector<int> test = {16, 4, 10, 14, 7, 9, 3, 2, 8, 1};
+    vector<int> test = {4,1,3,2,16,9,10,14,8,7};
     //heap
     _heap h1;
     h1._initialized(test);
     h1._print_heap();
     //time variable_1
     _time_cost time_1;
-    h1._max_heapify_nonrecursive(1);
+    h1._build_max_heap();
 
     time_1.get_time_cost();
 

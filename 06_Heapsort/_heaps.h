@@ -22,11 +22,7 @@ public:
 
     void _print_heap();//print elements of heap.
 
-    void _max_heapify(int i);//maintaining max-heap property- p154
-
-    void _min_heapify(int i);//maintaining min-heap property-never used-6.2-2
-
-    void _max_heapify_nonrecursive(int i);//6.2-5 //nonrecursive-version
+    void _build_max_heap();//build max heap through first n/2 elements-p157
 
 private:
     static int _parent_index(int i);//return the index of node i's parent.
@@ -35,7 +31,13 @@ private:
 
     int _right_index(int i);//return the index of node i's right child.
 
-    void swap(int i,int j);//swap two elements in heap.
+    void swap(int i, int j);//swap two elements in heap.
+
+    void _max_heapify(int i);//maintaining max-heap property- p154
+
+    void _min_heapify(int i);//maintaining min-heap property-never used-6.2-2
+
+    void _max_heapify_nonrecursive(int i);//non-recursive-version-6.2-5-
 };
 
 #endif //MY_ALGORITHMS__HEAPS_H
