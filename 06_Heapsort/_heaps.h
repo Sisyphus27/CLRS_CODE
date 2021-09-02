@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -20,6 +21,12 @@ public:
     int _length();//return the heap's length.
 
     void _print_heap();//print elements of heap.
+
+    static int _parent_index(int i);//return the index of node i's parent.
+
+    int _left_index(int i);//return the index of node i's left child.
+
+    int _right_index(int i);//return the index of node i's right child.
 };
 
 #endif //MY_ALGORITHMS__HEAPS_H

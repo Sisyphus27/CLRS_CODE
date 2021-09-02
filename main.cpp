@@ -24,7 +24,7 @@ int main() {
     time_1.get_time_cost();
 
     h1._print_heap();
-    cout<<h1._length();
-
+    cout<<h1._length()<<endl;
+    cout<<h1._right_index(4);
     return 0;
 }

@@ -25,3 +25,22 @@ void _heap::_print_heap() {
     cout << endl;
 }
 
+int _heap::_parent_index(int i) {
+    if (i == 1)return 1;
+    return floor(i / 2);
+}
+
+int _heap::_left_index(int i) {
+    i << 1;
+    if (i > _length())
+        return -1;
+    return i;
+}
+
+int _heap::_right_index(int i) {
+    i = (i << 1) + 1;
+    if (i > _length())
+        return -1;
+    return i;
+}
+
