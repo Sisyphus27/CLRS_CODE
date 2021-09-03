@@ -14,15 +14,15 @@ using namespace std;
 class _heap {//max-heap
 private:
     vector<int> heap;
-    int length=0;
-    int heap_size=0;
+    int length = 0;
+    int heap_size = 0;
 
 public:
     void _initialized(vector<int> A);//initialized the heap.
 
     void _print_heap();//print elements of heap.
 
-    void _heapsort();
+    void _heapsort();//heapsort algorithm function.-p160
 
 private:
     static int _parent_index(int i);//return the index of node i's parent.
