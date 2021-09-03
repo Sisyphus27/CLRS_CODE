@@ -14,15 +14,15 @@ using namespace std;
 class _heap {//max-heap
 private:
     vector<int> heap;
+    int length=0;
+    int heap_size=0;
 
 public:
     void _initialized(vector<int> A);//initialized the heap.
 
-    int _length();//return the heap's length.
-
     void _print_heap();//print elements of heap.
 
-    void _build_max_heap();//build max heap through first n/2 elements-p157
+    void _heapsort();
 
 private:
     static int _parent_index(int i);//return the index of node i's parent.
@@ -38,6 +38,8 @@ private:
     void _min_heapify(int i);//maintaining min-heap property-never used-6.2-2
 
     void _max_heapify_nonrecursive(int i);//non-recursive-version-6.2-5
+
+    void _build_max_heap();//build max heap through first n/2 elements-p157
 };
 
 #endif //MY_ALGORITHMS__HEAPS_H

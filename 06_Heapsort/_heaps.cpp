@@ -5,16 +5,12 @@
 #include "_heaps.h"
 
 
-
 void _heap::_initialized(vector<int> A) {
     this->heap = A;
+    this->length = A.size();
+    this->heap_size = length;
 }
 
-int _heap::_length() {
-    if (heap.empty())
-        return 0;
-    return heap.size();
-}
 
 void _heap::_print_heap() {
     if (heap.empty())
@@ -44,12 +40,11 @@ void _heap::_max_heapify(int i) {
     int largest;
     int l = _left_index(i);
     int r = _right_index(i);
-    int n = this->_length();
-    if ((l <= n) && (heap[l] > heap[i]))
+    if ((l <= heap_size-1) && (heap[l] > heap[i]))
         largest = l;
     else
         largest = i;
-    if ((r <= n) && (heap[r] > heap[largest]))
+    if ((r <= heap_size-1) && (heap[r] > heap[largest]))
         largest = r;
     if (largest != i) {
         swap(i, largest);
@@ -67,12 +62,11 @@ void _heap::_min_heapify(int i) {
     int lowest;
     int l = _left_index(i);
     int r = _right_index(i);
-    int n = this->_length();
-    if ((l <= n) && (heap[l] > heap[i]))
+    if ((l <= heap_size-1) && (heap[l] > heap[i]))
         lowest = l;
     else
         lowest = i;
-    if ((r <= n) && (heap[r] > heap[lowest]))
+    if ((r <= heap_size-1) && (heap[r] > heap[lowest]))
         lowest = r;
     if (lowest != i) {
         swap(i, lowest);
@@ -82,7 +76,6 @@ void _heap::_min_heapify(int i) {
 
 void _heap::_max_heapify_nonrecursive(int i) {
     int l, r, largest;
-    int n = this->_length();
     while (true) {
         l = _left_index(i);
         r = _right_index(i);
@@ -100,8 +93,16 @@ void _heap::_max_heapify_nonrecursive(int i) {
 }
 
 void _heap::_build_max_heap() {
-    int n = this->_length();
-    for (int i = floor(n / 2) - 1; i >= 0; --i)//notice the index is not start from 1.
+    for (int i = floor(length / 2) - 1; i >= 0; --i)//notice the index is not start from 1.
         _max_heapify(i);
+}
+
+void _heap::_heapsort() {
+    _build_max_heap();
+    for (int i = length - 1; i >= 1; --i) {
+        swap(0, i);
+        heap_size--;
+        _max_heapify(0);
+    }
 }
 
