@@ -17,11 +17,15 @@ CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj: ../06_Heapsort
 CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj: ../06_Heapsort/_priority_queue.cpp
 CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj: ../06_Heapsort/_priority_queue.h
 
+CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj: ../07_Quicksort/_quicksort.cpp
+CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj: ../07_Quicksort/_quicksort.h
+
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../02_Getting_Started/_sort.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../04_Divide_and_Conquer/divide-and-conquer.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../06_Heapsort/_heaps.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../06_Heapsort/_priority_queue.h
+CMakeFiles/my_algorithms.dir/main.cpp.obj: ../07_Quicksort/_quicksort.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../random_algorithm/my_random.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../time_cost_calculate/time_cost_calculate.h

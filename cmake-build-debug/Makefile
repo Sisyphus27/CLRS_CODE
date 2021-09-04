@@ -276,6 +276,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.s
 .PHONY : 06_Heapsort/_priority_queue.cpp.s
 
+07_Quicksort/_quicksort.obj: 07_Quicksort/_quicksort.cpp.obj
+
+.PHONY : 07_Quicksort/_quicksort.obj
+
+# target to build an object file
+07_Quicksort/_quicksort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj
+.PHONY : 07_Quicksort/_quicksort.cpp.obj
+
+07_Quicksort/_quicksort.i: 07_Quicksort/_quicksort.cpp.i
+
+.PHONY : 07_Quicksort/_quicksort.i
+
+# target to preprocess a source file
+07_Quicksort/_quicksort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.i
+.PHONY : 07_Quicksort/_quicksort.cpp.i
+
+07_Quicksort/_quicksort.s: 07_Quicksort/_quicksort.cpp.s
+
+.PHONY : 07_Quicksort/_quicksort.s
+
+# target to generate assembly for a file
+07_Quicksort/_quicksort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.s
+.PHONY : 07_Quicksort/_quicksort.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -381,6 +408,9 @@ help:
 	@echo ... 06_Heapsort/_priority_queue.obj
 	@echo ... 06_Heapsort/_priority_queue.i
 	@echo ... 06_Heapsort/_priority_queue.s
+	@echo ... 07_Quicksort/_quicksort.obj
+	@echo ... 07_Quicksort/_quicksort.i
+	@echo ... 07_Quicksort/_quicksort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

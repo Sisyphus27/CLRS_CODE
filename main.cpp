@@ -4,29 +4,29 @@
 #include "05_Probabilistic_Analysis_and_Randomized_Algorithms/hiring_problem.h"
 #include "06_Heapsort/_heaps.h"
 #include "06_Heapsort/_priority_queue.h"
+#include "07_Quicksort/_quicksort.h"
 #include "random_algorithm/my_random.h"
 #include "time_cost_calculate/time_cost_calculate.h"
 #include <vector>
 
 using namespace std;
 
+void _print_vec(vector<int> A) {
+    for (auto item:A)
+        cout << item << " ";
+    cout << endl;
+}
+
 int main() {
 
     //random array
     class generate_random r1, r2;
     vector<int> t = r1.int_random(-27, 27, 10);
-    vector<int> test = {1,2,3};
-    //heap
-    _heap h1;
-    _max_priority_queue h2;
-    h1._initialized(test);
-    h1._print_heap();
-    h1._build_max_heap();
-    h1._print_heap();
-    h2._initialized(test);
-    h2._print_heap();
-    h2._build_max_heap_by_insert();
-    h2._print_priority_queue();
-
+    vector<int> test = {4,4,4,4,4,4,4,4};
+    //quick sort
+    _quicksort q1;
+    _print_vec(test);
+    q1._quick_sort(test,0,test.size()-1);
+    _print_vec(test);
     return 0;
 }
