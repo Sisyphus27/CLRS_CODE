@@ -25,8 +25,8 @@ int main() {
     vector<int> test = {4,4,4,4,4,4,4,4};
     //quick sort
     _quicksort q1;
-    _print_vec(test);
-    q1._quick_sort(test,0,test.size()-1);
-    _print_vec(test);
+    _print_vec(t);
+    q1._quick_sort(t);
+    _print_vec(t);
     return 0;
 }

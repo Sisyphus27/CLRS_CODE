@@ -18,11 +18,11 @@ int _quicksort::_partition(vector<int> &A, int p, int r) {
     return i + 1;
 }
 
-void _quicksort::_quick_sort(vector<int> &A, int p, int r) {
+void _quicksort::_quick_sort_initial(vector<int> &A, int p, int r) {
     if (p < r) {
         int q = _partition_eq(A, p, r);
-        _quick_sort(A, p, q - 1);
-        _quick_sort(A, q + 1, r);
+        _quick_sort_initial(A, p, q - 1);
+        _quick_sort_initial(A, q + 1, r);
     }
 }
 
@@ -44,4 +44,8 @@ int _quicksort::_partition_eq(vector<int> &A, int p, int r) {
     }
     swap(A[i + 1], A[r]);
     return i + 1;
+}
+
+void _quicksort::_quick_sort(vector<int> &A) {
+    _quick_sort_initial(A, 0, A.size() - 1);
 }
