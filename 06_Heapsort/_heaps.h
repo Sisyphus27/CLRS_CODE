@@ -26,16 +26,16 @@ public:
 
     void _heapsort();//heapsort algorithm function.-p160
 
-protected:
     void _build_max_heap();//build max heap through first n/2 elements-p157
 
+protected:
     static int _parent_index(int i);//return the index of node i's parent.
 
     int _left_index(int i);//return the index of node i's left child.
 
     int _right_index(int i);//return the index of node i's right child.
 
-    void _swap(int i, int j);//swap two elements in heap.
+    void _swap(vector<int>&A,int i, int j);//swap two elements in heap.
 
     void _max_heapify(int i);//maintaining max-heap property- p154
 

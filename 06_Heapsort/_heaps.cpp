@@ -16,7 +16,7 @@ void _heap::_print_heap() {
     if (heap.empty())
         return;
     for (int i = 0; i < this->heap_size; ++i) {
-        cout << this->heap[i]<<" ";
+        cout << this->heap[i] << " ";
     }
     cout << endl;
 }
@@ -48,15 +48,15 @@ void _heap::_max_heapify(int i) {
     if ((r <= heap_size - 1) && (heap[r] > heap[largest]))
         largest = r;
     if (largest != i) {
-        _swap(i, largest);
+        _swap(this->heap, i, largest);
         _max_heapify(largest);
     }
 }
 
-void _heap::_swap(int i, int j) {
-    int t = this->heap[i];
-    this->heap[i] = this->heap[j];
-    this->heap[j] = t;
+void _heap::_swap(vector<int> &A, int i, int j) {
+    int t = A[i];
+    A[i] = A[j];
+    A[j] = t;
 }
 
 void _heap::_min_heapify(int i) {
@@ -70,7 +70,7 @@ void _heap::_min_heapify(int i) {
     if ((r <= heap_size - 1) && (heap[r] > heap[lowest]))
         lowest = r;
     if (lowest != i) {
-        _swap(i, lowest);
+        _swap(this->heap, i, lowest);
         _min_heapify(lowest);
     }
 }
@@ -88,7 +88,7 @@ void _heap::_max_heapify_nonrecursive(int i) {
             largest = r;
         if (largest == i)
             return;
-        _swap(i, largest);
+        _swap(this->heap, i, largest);
         i = largest;
     }
 }
@@ -103,7 +103,7 @@ void _heap::_heapsort() {
     if (!this->is_max_heap)
         _build_max_heap();
     for (int i = length - 1; i >= 1; --i) {
-        _swap(0, i);
+        _swap(this->heap, 0, i);
         heap_size--;
         _max_heapify(0);
     }

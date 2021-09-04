@@ -17,12 +17,16 @@ int main() {
     vector<int> t = r1.int_random(-27, 27, 10);
     vector<int> test = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
     //heap
+    _heap h1;
     _max_priority_queue h2;
+    h1._initialized(test);
+    h1._print_heap();
+    h1._build_max_heap();
+    h1._print_heap();
     h2._initialized(test);
     h2._print_heap();
-    h2._max_heap_insertion(15);
-    h2._print_heap();
-    h2._heap_delete(5);
-    h2._print_heap();
+    h2._build_max_heap_by_insert();
+    h2._print_priority_queue();
+
     return 0;
 }
