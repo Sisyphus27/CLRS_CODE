@@ -21,8 +21,8 @@ int main() {
     h2._initialized(test);
     h2._print_heap();
     h2._max_heap_insertion(15);
-    //time variable_1
-    _time_cost time_1;
+    h2._print_heap();
+    h2._heap_delete(5);
     h2._print_heap();
     return 0;
 }

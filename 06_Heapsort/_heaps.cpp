@@ -15,8 +15,9 @@ void _heap::_initialized(vector<int> A) {
 void _heap::_print_heap() {
     if (heap.empty())
         return;
-    for (auto item:heap)
-        cout << item << " ";
+    for (int i = 0; i < this->heap_size; ++i) {
+        cout << this->heap[i]<<" ";
+    }
     cout << endl;
 }
 

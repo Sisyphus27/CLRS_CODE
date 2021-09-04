@@ -44,6 +44,20 @@ void _max_priority_queue::_max_heap_insertion(int key) {
     this->heap_size++;
     if (this->heap_size > this->length)
         this->length = this->heap_size;
-    this->heap.insert(heap.begin() + heap_size -1, INT_MIN);
-    _heap_increase_key(this->heap_size-1, key);
+    this->heap.insert(heap.begin() + heap_size - 1, INT_MIN);
+    _heap_increase_key(this->heap_size - 1, key);
+}
+
+void _max_priority_queue::_heap_delete(int i) {
+    if (i < 0 || i >= this->heap_size) {
+        cout << "error index" << endl;
+        exit(0);
+    }
+    if (this->heap[i] > this->heap[this->heap_size - 1]) {
+        this->heap[i] = this->heap[this->heap_size - 1];
+        _max_heapify(i);
+    } else {
+        _heap_increase_key(i, this->heap[this->heap_size - 1]);
+    }
+    this->heap_size--;
 }

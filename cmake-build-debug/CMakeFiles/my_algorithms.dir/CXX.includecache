@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.cpp
+_heaps.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.h
+
 C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.h
 vector
 -
@@ -15,12 +19,4 @@ cmath
 -
 climits
 -
-
-C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_priority_queue.cpp
-_priority_queue.h
-C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_priority_queue.h
-
-C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_priority_queue.h
-_heaps.h
-C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.h
 

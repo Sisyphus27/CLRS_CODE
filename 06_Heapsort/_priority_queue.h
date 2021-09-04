@@ -15,6 +15,8 @@ public:
 
     void _max_heap_insertion(int key);//insert a new element.
 
+    void _heap_delete(int i);//delete i-th element of a heap.
+
 protected:
     void _heap_increase_key(int i,int key);
 };
