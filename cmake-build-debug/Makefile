@@ -249,6 +249,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.s
 .PHONY : 06_Heapsort/_heaps.cpp.s
 
+06_Heapsort/_priority_queue.obj: 06_Heapsort/_priority_queue.cpp.obj
+
+.PHONY : 06_Heapsort/_priority_queue.obj
+
+# target to build an object file
+06_Heapsort/_priority_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj
+.PHONY : 06_Heapsort/_priority_queue.cpp.obj
+
+06_Heapsort/_priority_queue.i: 06_Heapsort/_priority_queue.cpp.i
+
+.PHONY : 06_Heapsort/_priority_queue.i
+
+# target to preprocess a source file
+06_Heapsort/_priority_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.i
+.PHONY : 06_Heapsort/_priority_queue.cpp.i
+
+06_Heapsort/_priority_queue.s: 06_Heapsort/_priority_queue.cpp.s
+
+.PHONY : 06_Heapsort/_priority_queue.s
+
+# target to generate assembly for a file
+06_Heapsort/_priority_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.s
+.PHONY : 06_Heapsort/_priority_queue.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -351,6 +378,9 @@ help:
 	@echo ... 06_Heapsort/_heaps.obj
 	@echo ... 06_Heapsort/_heaps.i
 	@echo ... 06_Heapsort/_heaps.s
+	@echo ... 06_Heapsort/_priority_queue.obj
+	@echo ... 06_Heapsort/_priority_queue.i
+	@echo ... 06_Heapsort/_priority_queue.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
