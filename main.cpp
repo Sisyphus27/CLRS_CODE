@@ -15,7 +15,7 @@ int main() {
     //random array
     class generate_random r1, r2;
     vector<int> t = r1.int_random(-27, 27, 10);
-    vector<int> test = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
+    vector<int> test = {1,2,3};
     //heap
     _heap h1;
     _max_priority_queue h2;
