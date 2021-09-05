@@ -21,12 +21,15 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_random(-27, 27, 10);
-    vector<int> test = {4,4,4,4,4,4,4,4};
+    vector<int> t = r1.int_array_random(-27, 27, 100000);
+    vector<int> test = {4, 4, 4, 4, 4, 4, 4, 4};
     //quick sort
-    _quicksort q1;
-    _print_vec(t);
+    _quicksort q1, q2;
+    _time_cost t1;
     q1._quick_sort(t);
-    _print_vec(t);
+    t1.get_time_cost();
+    _time_cost t2;
+    q2._randomized_quicksort(t);
+    t2.get_time_cost();
     return 0;
 }

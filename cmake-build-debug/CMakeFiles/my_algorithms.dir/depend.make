@@ -19,6 +19,7 @@ CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj: ../06_Heapsort
 
 CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj: ../07_Quicksort/_quicksort.cpp
 CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj: ../07_Quicksort/_quicksort.h
+CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj: ../random_algorithm/my_random.h
 
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../02_Getting_Started/_sort.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../04_Divide_and_Conquer/divide-and-conquer.h
