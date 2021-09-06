@@ -21,7 +21,8 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_array_random(-27, 27, 100000);
+    vector<int> t = r1.int_array_random(-27, 27, 1000000);
+    vector<int> t_copy = t;
     vector<int> test = {4, 4, 4, 4, 4, 4, 4, 4};
     //quick sort
     _quicksort q1, q2;
@@ -29,7 +30,7 @@ int main() {
     q1._quick_sort(t);
     t1.get_time_cost();
     _time_cost t2;
-    q2._hoare_quick_sort(t);
+    q2._hoare_quick_sort(t_copy);
     t2.get_time_cost();
     return 0;
 }

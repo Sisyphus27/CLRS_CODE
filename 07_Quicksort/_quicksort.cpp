@@ -79,7 +79,7 @@ int _quicksort::_hoare_patition(vector<int> &A, int p, int r) {
         } while (A[j] > x);
         do {
             i++;
-        } while (A[i < x]);
+        } while (A[i] < x);
         if (i < j)
             swap(A[i], A[j]);
         else
