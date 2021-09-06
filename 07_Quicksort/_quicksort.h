@@ -25,6 +25,8 @@ protected:
     int _partition(vector<int> &A, int p, int r);//p171
 
     int _partition_eq(vector<int> &A, int p, int r);//p174,7.1-2
+
+    int _hoare_patition(vector<int>&A,int p,int r);//p185 the original partitioning algorithm.
 };
 
 

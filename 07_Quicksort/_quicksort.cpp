@@ -68,3 +68,21 @@ void _quicksort::_randomized_quicksort_initial(vector<int> &A, int p, int r) {
 void _quicksort::_randomized_quicksort(vector<int> &A) {
     _randomized_quicksort_initial(A, 0, A.size() - 1);
 }
+
+int _quicksort::_hoare_patition(vector<int> &A, int p, int r) {
+    int x = A[p];
+    int i = p - 1;
+    int j = r + 1;
+    while (true) {
+        do {
+            j--;
+        } while (A[j] > x);
+        do {
+            i++;
+        } while (A[i < x]);
+        if (i < j)
+            swap(A[i], A[j]);
+        else
+            return j;
+    }
+}
