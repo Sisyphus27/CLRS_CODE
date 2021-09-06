@@ -86,3 +86,15 @@ int _quicksort::_hoare_patition(vector<int> &A, int p, int r) {
             return j;
     }
 }
+
+void _quicksort::_hoare_quick_sort_initial(vector<int> &A, int p, int r) {
+    if (p < r) {
+        int q = _hoare_patition(A, p, r);
+        _hoare_quick_sort_initial(A, p, q);
+        _hoare_quick_sort_initial(A, q + 1, r);
+    }
+}
+
+void _quicksort::_hoare_quick_sort(vector<int> &A) {
+    _hoare_quick_sort_initial(A, 0, A.size() - 1);
+}

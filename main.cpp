@@ -29,7 +29,7 @@ int main() {
     q1._quick_sort(t);
     t1.get_time_cost();
     _time_cost t2;
-    q2._randomized_quicksort(t);
+    q2._hoare_quick_sort(t);
     t2.get_time_cost();
     return 0;
 }
