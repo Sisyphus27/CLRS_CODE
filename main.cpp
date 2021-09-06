@@ -23,11 +23,11 @@ int main() {
     class generate_random r1, r2;
     vector<int> t = r1.int_array_random(-27, 27, 1000000);
     vector<int> t_copy = t;
-    vector<int> test = {14,134,3145,3,14,3,16,53,48,68,43,4, 4, 4, 4, 4, 4, 4, 4};
+    vector<int> test = {14, 134, 3145, 3, 14, 3, 16, 53, 48, 68, 43, 4, 4, 4, 4, 4, 4, 4, 4};
     //quick sort
-    _quicksort q1, q2,q3;
+    _quicksort q1, q2, q3;
     _time_cost t1;
-    q1._quick_sort(t);
+    sort(t.begin(), t.end());
     t1.get_time_cost();
     _time_cost t2;
     q2._hoare_quick_sort(t_copy);
