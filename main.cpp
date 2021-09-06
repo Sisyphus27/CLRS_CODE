@@ -32,7 +32,6 @@ int main() {
     _time_cost t2;
     q2._hoare_quick_sort(t_copy);
     t2.get_time_cost();
-    q3._quick_sort_eq_2(test);
 
     return 0;
 }
