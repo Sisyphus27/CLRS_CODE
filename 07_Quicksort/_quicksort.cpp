@@ -98,3 +98,36 @@ void _quicksort::_hoare_quick_sort_initial(vector<int> &A, int p, int r) {
 void _quicksort::_hoare_quick_sort(vector<int> &A) {
     _hoare_quick_sort_initial(A, 0, A.size() - 1);
 }
+
+vector<int> _quicksort::_partition_eq_2(vector<int> &A, int p, int r) {
+    int x = A[p];
+    int low = p, high = p;
+    for (int j = p + 1; j <= r; ++j) {
+        if (A[j] < x) {
+            int y = A[j];
+            A[j] = A[high + 1];
+            A[high + 1] = A[low];
+            A[low] = y;
+            low++;
+            high++;
+        } else if (A[j] == x) {
+            swap(A[high + 1], A[j]);
+            high++;
+        }
+    }
+    return {low, high};
+}
+
+void _quicksort::_quick_sort_eq_2_initial(vector<int> &A, int p, int r) {
+    if (p < r) {
+        int low, high;
+        vector<int> buf = _partition_eq_2(A, p, r);
+        low = buf[0], high = buf[1];
+        _quick_sort_eq_2_initial(A, p, low - 1);
+        _quick_sort_eq_2_initial(A, high + 1, r);
+    }
+}
+
+void _quicksort::_quick_sort_eq_2(vector<int> &A) {
+    _quick_sort_eq_2_initial(A, 0, A.size() - 1);
+}
