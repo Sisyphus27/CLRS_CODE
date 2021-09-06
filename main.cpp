@@ -21,7 +21,7 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_array_random(-27, 27, 1000000);
+    vector<int> t = r1.int_array_random(-27000, 27000, 1000000);
     vector<int> t_copy = t;
     vector<int> test = {14, 134, 3145, 3, 14, 3, 16, 53, 48, 68, 43, 4, 4, 4, 4, 4, 4, 4, 4};
     //quick sort
