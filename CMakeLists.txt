@@ -17,4 +17,4 @@ add_executable(my_algorithms
         06_Heapsort/_heaps.cpp 06_Heapsort/_heaps.h
         06_Heapsort/_priority_queue.cpp 06_Heapsort/_priority_queue.h
         07_Quicksort/_quicksort.cpp 07_Quicksort/_quicksort.h
-        08_Sorting_in_Linear_Time/_counting_sort.cpp 08_Sorting_in_Linear_Time/_counting_sort.h)
+        08_Sorting_in_Linear_Time/_counting_sort.cpp 08_Sorting_in_Linear_Time/_counting_sort.h 08_Sorting_in_Linear_Time/_Radix_sort.cpp 08_Sorting_in_Linear_Time/_Radix_sort.h)
