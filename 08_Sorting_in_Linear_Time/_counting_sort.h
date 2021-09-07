@@ -12,7 +12,7 @@ using namespace std;
 
 class _Counting_sort {
 public:
-    void _counting_sort(vector<int> &A);//p195
+    void _counting_sort(vector<int> &A);//p195,it only can sort positive number
 
     int _how_many_in_range(vector<int> A, int a, int b);//8.2-4
 
