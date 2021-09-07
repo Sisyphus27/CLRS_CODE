@@ -50,6 +50,10 @@ vector
 ../random_algorithm/my_random.h
 C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.h
 
+C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_counting_sort.h
+vector
+-
+
 C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp
 iostream
 -
@@ -65,6 +69,8 @@ C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_heaps.h
 C:/Users/zy/Documents/GitHub/CLRS_CODE/06_Heapsort/_priority_queue.h
 07_Quicksort/_quicksort.h
 C:/Users/zy/Documents/GitHub/CLRS_CODE/07_Quicksort/_quicksort.h
+08_Sorting_in_Linear_Time/_counting_sort.h
+C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_counting_sort.h
 random_algorithm/my_random.h
 C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.h
 time_cost_calculate/time_cost_calculate.h

@@ -5,6 +5,7 @@
 #include "06_Heapsort/_heaps.h"
 #include "06_Heapsort/_priority_queue.h"
 #include "07_Quicksort/_quicksort.h"
+#include "08_Sorting_in_Linear_Time/_counting_sort.h"
 #include "random_algorithm/my_random.h"
 #include "time_cost_calculate/time_cost_calculate.h"
 #include <vector>
@@ -21,21 +22,19 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_array_random(-27000, 27000, 1000000);
+    vector<int> t = r1.int_array_random(0, 27000, 1000000);
+    int k = *max_element(t.begin(), t.end());
     vector<int> t_copy = t;
-    vector<int> test = {14, 134, 3145, 3, 14, 3, 16, 53, 48, 68, 43, 4, 4, 4, 4, 4, 4, 4, 4};
-    vector<int> t1, t1_copy;
-    for (int i = 0; i < 10000000; i++)
-        t1.push_back(i);
-    t1_copy = t1;
-    //quick sort
-    _quicksort q1, q2, q3;
+    vector<int> A = {2, 5, 3, 0, 2, 3, 0, 3};
+    vector<int> B(1000000, 0);
+    //counting sort
+    _quicksort q1;
+    _Counting_sort c1;
     _time_cost t_1;
-    q1._quick_sort_eq_2(t1);
+    c1._counting_sort(t, B, k);
     t_1.get_time_cost();
     _time_cost t_2;
-    q2._hoare_quick_sort(t1_copy);
+    q1._hoare_quick_sort(t_copy);
     t_2.get_time_cost();
-
     return 0;
 }

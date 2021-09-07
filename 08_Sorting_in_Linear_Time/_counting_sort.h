@@ -5,9 +5,13 @@
 #ifndef MY_ALGORITHMS__COUNTING_SORT_H
 #define MY_ALGORITHMS__COUNTING_SORT_H
 
+#include <vector>
 
-class _counting_sort {
+using namespace std;
 
+class _Counting_sort {
+public:
+    void _counting_sort(vector<int>&A,vector<int>&B,int k);
 };
 
 
