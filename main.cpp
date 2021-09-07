@@ -28,13 +28,9 @@ int main() {
     vector<int> A = {2, 5, 3, 0, 2, 3, 0, 3};
     vector<int> B(1000000, 0);
     //counting sort
-    _quicksort q1;
-    _Counting_sort c1;
-    _time_cost t_1;
-    c1._counting_sort(t, B, k);
-    t_1.get_time_cost();
+    _Counting_sort c1, c2;
     _time_cost t_2;
-    q1._hoare_quick_sort(t_copy);
+    c2._counting_sort(t_copy);
     t_2.get_time_cost();
     return 0;
 }
