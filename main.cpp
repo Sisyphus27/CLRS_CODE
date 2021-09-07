@@ -24,14 +24,18 @@ int main() {
     vector<int> t = r1.int_array_random(-27000, 27000, 1000000);
     vector<int> t_copy = t;
     vector<int> test = {14, 134, 3145, 3, 14, 3, 16, 53, 48, 68, 43, 4, 4, 4, 4, 4, 4, 4, 4};
+    vector<int> t1, t1_copy;
+    for (int i = 0; i < 10000000; i++)
+        t1.push_back(i);
+    t1_copy = t1;
     //quick sort
     _quicksort q1, q2, q3;
-    _time_cost t1;
-    sort(t.begin(), t.end());
-    t1.get_time_cost();
-    _time_cost t2;
-    q2._hoare_quick_sort(t_copy);
-    t2.get_time_cost();
+    _time_cost t_1;
+    q1._quick_sort_eq_2(t1);
+    t_1.get_time_cost();
+    _time_cost t_2;
+    q2._hoare_quick_sort(t1_copy);
+    t_2.get_time_cost();
 
     return 0;
 }

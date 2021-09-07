@@ -116,6 +116,12 @@
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/07_Quicksort/_quicksort.h">
 			<Option target="my_algorithms"/>
 		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_counting_sort.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_counting_sort.h">
+			<Option target="my_algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
