@@ -303,6 +303,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.s
 .PHONY : 07_Quicksort/_quicksort.cpp.s
 
+08_Sorting_in_Linear_Time/_Bucket_sort.obj: 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj
+
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.obj
+
+# target to build an object file
+08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj
+
+08_Sorting_in_Linear_Time/_Bucket_sort.i: 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.i
+
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.i
+
+# target to preprocess a source file
+08_Sorting_in_Linear_Time/_Bucket_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Bucket_sort.cpp.i
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.i
+
+08_Sorting_in_Linear_Time/_Bucket_sort.s: 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.s
+
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.s
+
+# target to generate assembly for a file
+08_Sorting_in_Linear_Time/_Bucket_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Bucket_sort.cpp.s
+.PHONY : 08_Sorting_in_Linear_Time/_Bucket_sort.cpp.s
+
 08_Sorting_in_Linear_Time/_Radix_sort.obj: 08_Sorting_in_Linear_Time/_Radix_sort.cpp.obj
 
 .PHONY : 08_Sorting_in_Linear_Time/_Radix_sort.obj
@@ -465,6 +492,9 @@ help:
 	@echo ... 07_Quicksort/_quicksort.obj
 	@echo ... 07_Quicksort/_quicksort.i
 	@echo ... 07_Quicksort/_quicksort.s
+	@echo ... 08_Sorting_in_Linear_Time/_Bucket_sort.obj
+	@echo ... 08_Sorting_in_Linear_Time/_Bucket_sort.i
+	@echo ... 08_Sorting_in_Linear_Time/_Bucket_sort.s
 	@echo ... 08_Sorting_in_Linear_Time/_Radix_sort.obj
 	@echo ... 08_Sorting_in_Linear_Time/_Radix_sort.i
 	@echo ... 08_Sorting_in_Linear_Time/_Radix_sort.s

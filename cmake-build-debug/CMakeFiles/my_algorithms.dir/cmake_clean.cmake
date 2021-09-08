@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_algorithms.dir/06_Heapsort/_heaps.cpp.obj"
   "CMakeFiles/my_algorithms.dir/06_Heapsort/_priority_queue.cpp.obj"
   "CMakeFiles/my_algorithms.dir/07_Quicksort/_quicksort.cpp.obj"
+  "CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Radix_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/main.cpp.obj"
