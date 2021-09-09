@@ -6,6 +6,7 @@
 #define MY_ALGORITHMS__QUICKSORT_H
 
 #include <vector>
+#include <cstdlib>
 #include "../random_algorithm/my_random.h"
 
 using namespace std;

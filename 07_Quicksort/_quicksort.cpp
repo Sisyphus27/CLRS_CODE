@@ -52,7 +52,7 @@ void _quicksort::_quick_sort(vector<int> &A) {
 
 int _quicksort::_randomized_partition(vector<int> &A, int p, int r) {
     generate_random r1;
-    int i = r1.int_inter_random(p, r);
+    int i = (rand()%(r-p+1))+p;
     swap(A[r], A[i]);
     return _partition(A, p, r);
 }

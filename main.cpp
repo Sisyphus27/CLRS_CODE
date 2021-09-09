@@ -28,16 +28,15 @@ int main() {
     vector<int> t_copy = t;
     vector<int> A = {2, 5, 3, 0, 2, 3, 0, 3};
     vector<int> B(1000000, 0);
-    //counting sort
+    //quick sort
+    _quicksort q1,q2;
     //minimum
     _Minimum_and_maximum m1,m2;
     _time_cost t_1;
-    cout<<m1._minimum(t);
+    q1._quick_sort(t);
     t_1.get_time_cost();
     _time_cost t_2;
-    for(auto item:m2._min_and_max_simultaneous(t_copy))
-        cout<<item<<" ";
-    cout<<endl;
+    q1._randomized_quicksort(t_copy);
     t_2.get_time_cost();
     return 0;
 }
