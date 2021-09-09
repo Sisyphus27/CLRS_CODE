@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_Bucket_sort.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Bucket_sort.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_Radix_sort.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Radix_sort.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/08_Sorting_in_Linear_Time/_counting_sort.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.obj"
+  "C:/Users/zy/Documents/GitHub/CLRS_CODE/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/main.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/random_algorithm/my_random.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj"
   "C:/Users/zy/Documents/GitHub/CLRS_CODE/time_cost_calculate/time_cost_calculate.cpp" "C:/Users/zy/Documents/GitHub/CLRS_CODE/cmake-build-debug/CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj"

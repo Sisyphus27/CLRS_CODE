@@ -384,6 +384,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.s
 .PHONY : 08_Sorting_in_Linear_Time/_counting_sort.cpp.s
 
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.obj: 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj
+
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.obj
+
+# target to build an object file
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj
+
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.i: 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.i
+
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.i
+
+# target to preprocess a source file
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.i
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.i
+
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.s: 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s
+
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.s
+
+# target to generate assembly for a file
+09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s
+.PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -501,6 +528,9 @@ help:
 	@echo ... 08_Sorting_in_Linear_Time/_counting_sort.obj
 	@echo ... 08_Sorting_in_Linear_Time/_counting_sort.i
 	@echo ... 08_Sorting_in_Linear_Time/_counting_sort.s
+	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.obj
+	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.i
+	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
