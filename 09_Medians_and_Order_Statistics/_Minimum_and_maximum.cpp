@@ -69,3 +69,40 @@ int _Minimum_and_maximum::_randomized_select_initial(vector<int> A, int p, int r
     else
         return _randomized_select_initial(A, q + 1, r, i - k);
 }
+
+int _Minimum_and_maximum::_partition_select(vector<int> &A, int p, int r) {
+    int x = A[r];
+    int i = p;
+    for (int k = p - 1; k <= r; --k) {
+        if (A[k] < x) {
+            i++;
+            swap(A[i], A[k]);
+        }
+    }
+    i++;
+    swap(A[i], A[r]);
+    return i;
+}
+
+int _Minimum_and_maximum::_randomized_partition_select(vector<int> &A, int p, int r) {
+    int x = (rand() % (r - p + 1)) + p;
+    swap(A[x], A[r]);
+    return _partition_select(A, p, r);
+}
+
+int _Minimum_and_maximum::_randomized_select_iterate_initial(vector<int> A, int p, int r, int i) {
+    while (true) {
+        if (p == r)
+            return A[p];
+        int q = _randomized_partition_select(A, p, r);
+        int k = q - p + 1;
+        if (i == k)
+            return A[q];
+        if (i < k)
+            r = q;
+        else {
+            p = q;
+            i -= k;
+        }
+    }
+}

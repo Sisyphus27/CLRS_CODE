@@ -17,6 +17,12 @@ public:
     vector<int> _min_and_max_simultaneous(vector<int> A);//p215
 
     int _randomized_select_initial(vector<int>A,int p,int r,int i);//p216
+
+    int _randomized_select_iterate_initial(vector<int>A,int p,int r,int i);//p219,9.2-3
+private:
+    int _partition_select(vector<int>&A,int p,int r);//p219,9.2-3
+
+    int _randomized_partition_select(vector<int>&A,int p ,int r);//p219,9.2-3
 };
 
 
