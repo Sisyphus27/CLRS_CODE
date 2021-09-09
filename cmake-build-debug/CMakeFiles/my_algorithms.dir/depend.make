@@ -30,8 +30,10 @@ CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Radix_sort.cpp.obj: ../0
 CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.obj: ../08_Sorting_in_Linear_Time/_counting_sort.cpp
 CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.obj: ../08_Sorting_in_Linear_Time/_counting_sort.h
 
+CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj: ../07_Quicksort/_quicksort.h
 CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj: ../09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp
 CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj: ../09_Medians_and_Order_Statistics/_Minimum_and_maximum.h
+CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj: ../random_algorithm/my_random.h
 
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../02_Getting_Started/_sort.h
 CMakeFiles/my_algorithms.dir/main.cpp.obj: ../04_Divide_and_Conquer/divide-and-conquer.h

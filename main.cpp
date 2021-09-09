@@ -33,10 +33,10 @@ int main() {
     //minimum
     _Minimum_and_maximum m1,m2;
     _time_cost t_1;
-    q1._quick_sort(t);
+    q1._hoare_quick_sort(t);
     t_1.get_time_cost();
     _time_cost t_2;
-    q1._randomized_quicksort(t_copy);
+    cout<<m2._randomized_select_initial(t_copy,0,t_copy.size()-1,354);
     t_2.get_time_cost();
     return 0;
 }
