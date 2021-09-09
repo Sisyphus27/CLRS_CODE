@@ -6,6 +6,7 @@
 #include "06_Heapsort/_priority_queue.h"
 #include "07_Quicksort/_quicksort.h"
 #include "08_Sorting_in_Linear_Time/_counting_sort.h"
+#include "09_Medians_and_Order_Statistics/_Minimum_and_maximum.h"
 #include "random_algorithm/my_random.h"
 #include "time_cost_calculate/time_cost_calculate.h"
 #include <vector>
@@ -28,9 +29,15 @@ int main() {
     vector<int> A = {2, 5, 3, 0, 2, 3, 0, 3};
     vector<int> B(1000000, 0);
     //counting sort
-    _Counting_sort c1, c2;
+    //minimum
+    _Minimum_and_maximum m1,m2;
+    _time_cost t_1;
+    cout<<m1._minimum(t);
+    t_1.get_time_cost();
     _time_cost t_2;
-    c2._counting_sort(t_copy);
+    for(auto item:m2._min_and_max_simultaneous(t_copy))
+        cout<<item<<" ";
+    cout<<endl;
     t_2.get_time_cost();
     return 0;
 }

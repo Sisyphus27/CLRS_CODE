@@ -10,7 +10,10 @@
 using namespace std;
 
 class _Minimum_and_maximum {
-    int _minimum(vector<int>A);
+public:
+    int _minimum(vector<int> A);//p214
+
+    vector<int> _min_and_max_simultaneous(vector<int> A);//p215
 };
 
 
