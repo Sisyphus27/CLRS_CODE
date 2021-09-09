@@ -39,20 +39,33 @@ vector<int> _Minimum_and_maximum::_min_and_max_simultaneous(vector<int> A) {
     } else {
         min = A[0];
         max = A[0];
-        for (int i = 1; i < n; i+=2) {
-            if(A[i]<A[i+1]){
-                if(min>A[i])
-                    min=A[i];
-                if(max<A[i+1])
-                    max=A[i+1];
-            } else{
-                if(min>A[i+1])
-                    min=A[i+1];
-                if(max<A[i])
-                    max=A[i];
+        for (int i = 1; i < n; i += 2) {
+            if (A[i] < A[i + 1]) {
+                if (min > A[i])
+                    min = A[i];
+                if (max < A[i + 1])
+                    max = A[i + 1];
+            } else {
+                if (min > A[i + 1])
+                    min = A[i + 1];
+                if (max < A[i])
+                    max = A[i];
             }
         }
     }
 
-    return {min,max};
+    return {min, max};
+}
+
+int _Minimum_and_maximum::_randomized_select_initial(vector<int> A, int p, int r, int i) {
+    if (p == r)
+        return A[p];
+    int q = _randomized_partition(A, p, r);
+    int k = q - p + 1;
+    if (i == k)
+        return A[q];
+    else if (i < k)
+        return _randomized_select_initial(A, p, q - 1, i);
+    else
+        return _randomized_select_initial(A, q + 1, r, i - k);
 }
