@@ -23,20 +23,25 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_array_random(0, 27000, 1000000);
+    vector<int> t = r1.int_array_random(0, 27000, 100000000);
     int k = *max_element(t.begin(), t.end());
     vector<int> t_copy = t;
+    vector<int> t_cc = t_copy;
     vector<int> A = {2, 5, 3, 0, 2, 3, 0, 3};
     vector<int> B(1000000, 0);
     //quick sort
-    _quicksort q1,q2;
+    _quicksort q1, q2;
+    _time_cost t_3;
+    q1._hoare_quick_sort(t_cc);
+    cout << t_cc[2534] << endl;
+    t_3.get_time_cost();
     //minimum
-    _Minimum_and_maximum m1,m2;
+    _Minimum_and_maximum m1, m2;
     _time_cost t_1;
-    cout<<m1._randomized_select_initial(t,0,t.size()-1,354);
+    cout << m1._randomized_select_initial(t, 0, t.size() - 1, 2534);
     t_1.get_time_cost();
     _time_cost t_2;
-    cout<<m2._randomized_select_iterate_initial(t_copy,0,t_copy.size()-1,354);
+    cout << m2._randomized_select_iterate_initial(t_copy, 0, t_copy.size() - 1, 2534);
     t_2.get_time_cost();
     return 0;
 }
