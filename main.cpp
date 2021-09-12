@@ -10,6 +10,8 @@
 #include "random_algorithm/my_random.h"
 #include "time_cost_calculate/time_cost_calculate.h"
 #include <vector>
+#include <stack>
+#include <queue>
 
 using namespace std;
 
@@ -20,7 +22,8 @@ void _print_vec(vector<int> A) {
 }
 
 int main() {
-
+    queue<int> h;
+    h.
     //random array
     class generate_random r1, r2;
     vector<int> t = r1.int_array_random(-27000, 27000, 10000000);

@@ -411,6 +411,33 @@ my_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s
 .PHONY : 09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.s
 
+10_Elementary_Data_Structures/_Stack_and_Queues.obj: 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.obj
+
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.obj
+
+# target to build an object file
+10_Elementary_Data_Structures/_Stack_and_Queues.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/10_Elementary_Data_Structures/_Stack_and_Queues.cpp.obj
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.obj
+
+10_Elementary_Data_Structures/_Stack_and_Queues.i: 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.i
+
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.i
+
+# target to preprocess a source file
+10_Elementary_Data_Structures/_Stack_and_Queues.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/10_Elementary_Data_Structures/_Stack_and_Queues.cpp.i
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.i
+
+10_Elementary_Data_Structures/_Stack_and_Queues.s: 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.s
+
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.s
+
+# target to generate assembly for a file
+10_Elementary_Data_Structures/_Stack_and_Queues.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_algorithms.dir\build.make CMakeFiles/my_algorithms.dir/10_Elementary_Data_Structures/_Stack_and_Queues.cpp.s
+.PHONY : 10_Elementary_Data_Structures/_Stack_and_Queues.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -531,6 +558,9 @@ help:
 	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.obj
 	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.i
 	@echo ... 09_Medians_and_Order_Statistics/_Minimum_and_maximum.s
+	@echo ... 10_Elementary_Data_Structures/_Stack_and_Queues.obj
+	@echo ... 10_Elementary_Data_Structures/_Stack_and_Queues.i
+	@echo ... 10_Elementary_Data_Structures/_Stack_and_Queues.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

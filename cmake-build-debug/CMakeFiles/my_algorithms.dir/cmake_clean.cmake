@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_Radix_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/08_Sorting_in_Linear_Time/_counting_sort.cpp.obj"
   "CMakeFiles/my_algorithms.dir/09_Medians_and_Order_Statistics/_Minimum_and_maximum.cpp.obj"
+  "CMakeFiles/my_algorithms.dir/10_Elementary_Data_Structures/_Stack_and_Queues.cpp.obj"
   "CMakeFiles/my_algorithms.dir/main.cpp.obj"
   "CMakeFiles/my_algorithms.dir/random_algorithm/my_random.cpp.obj"
   "CMakeFiles/my_algorithms.dir/time_cost_calculate/time_cost_calculate.cpp.obj"

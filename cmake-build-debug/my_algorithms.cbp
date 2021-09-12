@@ -140,6 +140,12 @@
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/09_Medians_and_Order_Statistics/_Minimum_and_maximum.h">
 			<Option target="my_algorithms"/>
 		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/10_Elementary_Data_Structures/_Stack_and_Queues.cpp">
+			<Option target="my_algorithms"/>
+		</Unit>
+		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/10_Elementary_Data_Structures/_Stack_and_Queues.h">
+			<Option target="my_algorithms"/>
+		</Unit>
 		<Unit filename="C:/Users/zy/Documents/GitHub/CLRS_CODE/main.cpp">
 			<Option target="my_algorithms"/>
 		</Unit>
