@@ -23,7 +23,7 @@ int main() {
 
     //random array
     class generate_random r1, r2;
-    vector<int> t = r1.int_array_random(0, 27000, 100000000);
+    vector<int> t = r1.int_array_random(-27000, 27000, 10000000);
     int k = *max_element(t.begin(), t.end());
     vector<int> t_copy = t;
     vector<int> t_cc = t_copy;
